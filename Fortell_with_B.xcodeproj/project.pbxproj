@@ -14,6 +14,9 @@
 		8BD11C171EB43372002C51CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD11C151EB43372002C51CD /* LaunchScreen.storyboard */; };
 		8BD11C221EB43372002C51CD /* Fortell_with_BTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD11C211EB43372002C51CD /* Fortell_with_BTests.swift */; };
 		8BD11C2D1EB43372002C51CD /* Fortell_with_BUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD11C2C1EB43372002C51CD /* Fortell_with_BUITests.swift */; };
+		8BD11C3C1EB434D9002C51CD /* FortellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD11C3A1EB434D9002C51CD /* FortellViewController.swift */; };
+		8BD11C3D1EB434D9002C51CD /* FortellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD11C3B1EB434D9002C51CD /* FortellViewController.xib */; };
+		8BD11C3F1EB4368D002C51CD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD11C3E1EB4368D002C51CD /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8BD11C281EB43372002C51CD /* Fortell_with_BUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Fortell_with_BUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD11C2C1EB43372002C51CD /* Fortell_with_BUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortell_with_BUITests.swift; sourceTree = "<group>"; };
 		8BD11C2E1EB43372002C51CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD11C3A1EB434D9002C51CD /* FortellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FortellViewController.swift; sourceTree = "<group>"; };
+		8BD11C3B1EB434D9002C51CD /* FortellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FortellViewController.xib; sourceTree = "<group>"; };
+		8BD11C3E1EB4368D002C51CD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		8BD11C0B1EB43372002C51CD /* Fortell_with_B */ = {
 			isa = PBXGroup;
 			children = (
+				8BD11C3E1EB4368D002C51CD /* background.png */,
 				8BD11C0C1EB43372002C51CD /* AppDelegate.swift */,
 				8BD11C0E1EB43372002C51CD /* ViewController.swift */,
 				8BD11C101EB43372002C51CD /* Main.storyboard */,
 				8BD11C131EB43372002C51CD /* Assets.xcassets */,
 				8BD11C151EB43372002C51CD /* LaunchScreen.storyboard */,
 				8BD11C181EB43372002C51CD /* Info.plist */,
+				8BD11C3A1EB434D9002C51CD /* FortellViewController.swift */,
+				8BD11C3B1EB434D9002C51CD /* FortellViewController.xib */,
 			);
 			path = Fortell_with_B;
 			sourceTree = "<group>";
@@ -236,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD11C171EB43372002C51CD /* LaunchScreen.storyboard in Resources */,
+				8BD11C3F1EB4368D002C51CD /* background.png in Resources */,
+				8BD11C3D1EB434D9002C51CD /* FortellViewController.xib in Resources */,
 				8BD11C141EB43372002C51CD /* Assets.xcassets in Resources */,
 				8BD11C121EB43372002C51CD /* Main.storyboard in Resources */,
 			);
@@ -264,6 +275,7 @@
 			files = (
 				8BD11C0F1EB43372002C51CD /* ViewController.swift in Sources */,
 				8BD11C0D1EB43372002C51CD /* AppDelegate.swift in Sources */,
+				8BD11C3C1EB434D9002C51CD /* FortellViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
