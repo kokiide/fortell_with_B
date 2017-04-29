@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B24C5F81EB485DF00C45047 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B24C5F51EB485DF00C45047 /* 001.jpg */; };
+		8B24C5F91EB485DF00C45047 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B24C5F61EB485DF00C45047 /* 002.jpg */; };
+		8B24C5FA1EB485DF00C45047 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B24C5F71EB485DF00C45047 /* 003.jpg */; };
 		8BD11C0D1EB43372002C51CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD11C0C1EB43372002C51CD /* AppDelegate.swift */; };
 		8BD11C0F1EB43372002C51CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD11C0E1EB43372002C51CD /* ViewController.swift */; };
 		8BD11C121EB43372002C51CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD11C101EB43372002C51CD /* Main.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B24C5F51EB485DF00C45047 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		8B24C5F61EB485DF00C45047 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		8B24C5F71EB485DF00C45047 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 		8BD11C091EB43372002C51CD /* Fortell_with_B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortell_with_B.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD11C0C1EB43372002C51CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD11C0E1EB43372002C51CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B24C5F41EB485DF00C45047 /* 素材 */ = {
+			isa = PBXGroup;
+			children = (
+				8B24C5F51EB485DF00C45047 /* 001.jpg */,
+				8B24C5F61EB485DF00C45047 /* 002.jpg */,
+				8B24C5F71EB485DF00C45047 /* 003.jpg */,
+			);
+			path = "素材";
+			sourceTree = "<group>";
+		};
 		8BD11C001EB43372002C51CD = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +119,7 @@
 		8BD11C0B1EB43372002C51CD /* Fortell_with_B */ = {
 			isa = PBXGroup;
 			children = (
+				8B24C5F41EB485DF00C45047 /* 素材 */,
 				8BD11C3E1EB4368D002C51CD /* background.png */,
 				8BD11C0C1EB43372002C51CD /* AppDelegate.swift */,
 				8BD11C0E1EB43372002C51CD /* ViewController.swift */,
@@ -245,8 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD11C171EB43372002C51CD /* LaunchScreen.storyboard in Resources */,
+				8B24C5FA1EB485DF00C45047 /* 003.jpg in Resources */,
 				8BD11C3F1EB4368D002C51CD /* background.png in Resources */,
+				8B24C5F91EB485DF00C45047 /* 002.jpg in Resources */,
 				8BD11C3D1EB434D9002C51CD /* FortellViewController.xib in Resources */,
+				8B24C5F81EB485DF00C45047 /* 001.jpg in Resources */,
 				8BD11C141EB43372002C51CD /* Assets.xcassets in Resources */,
 				8BD11C121EB43372002C51CD /* Main.storyboard in Resources */,
 			);
@@ -526,6 +546,7 @@
 				8BD11C331EB43372002C51CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BD11C341EB43372002C51CD /* Build configuration list for PBXNativeTarget "Fortell_with_BTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +555,7 @@
 				8BD11C361EB43372002C51CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BD11C371EB43372002C51CD /* Build configuration list for PBXNativeTarget "Fortell_with_BUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +564,7 @@
 				8BD11C391EB43372002C51CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
